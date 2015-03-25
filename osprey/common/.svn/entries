@@ -1,0 +1,49 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/common
+svn://10.3.0.220/pavt/open64
+
+
+
+2011-07-26T02:47:49.926602Z
+556
+wl2011
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+stl
+dir
+
+instrument
+dir
+
+targ_info
+dir
+
+intr
+dir
+
+util
+dir
+
+com
+dir
+
+ipfec_targ_info
+dir
+

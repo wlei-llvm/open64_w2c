@@ -1,0 +1,82 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/clibroot
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+tmf
+dir
+
+fortio.h
+file
+
+
+
+
+2015-03-25T04:30:06.000000Z
+b5d99d23d42d4dddf78840d9ec63f5c7
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+fp.h
+file
+
+
+
+
+2015-03-25T04:30:06.000000Z
+2b2bb6fc27cca29cda22e407edc72574
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+make
+dir
+
+complex.h
+file
+
+
+
+
+2015-03-25T04:30:06.000000Z
+697ba1bcb55493eca3ca402c5b8ba896
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+format.h
+file
+
+
+
+
+2015-03-25T04:30:06.000000Z
+5a917cb7ea1fb18a0ce8cbbc89b0c45f
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

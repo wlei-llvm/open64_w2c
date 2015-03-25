@@ -1,0 +1,40 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/common/targ_info/abi/pr1
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+abi_properties.cxx
+file
+
+
+
+
+2015-03-25T04:29:51.000000Z
+c14491e00c5c1fe20b9aaa3f52c5a1e0
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

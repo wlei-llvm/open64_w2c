@@ -1,0 +1,691 @@
+bfd/elf64-target.h:#ifndef ELF_DYNAMIC_SEC_FLAGS
+bfd/elf64-target.h:#define ELF_DYNAMIC_SEC_FLAGS			\
+bfd/elf64-target.h:  ELF_DYNAMIC_SEC_FLAGS,        /* dynamic_sec_flags */
+bfd/bfd-in3.h:#define BFD_NO_FLAGS   	0x00
+bfd/bfd-in3.h:#define SEC_NO_FLAGS   0x000
+bfd/bfd-in3.h:#define BSF_NO_FLAGS    0x00
+bfd/bfd-in3.h:     from the set <<BFD_NO_FLAGS>>, <<HAS_RELOC>>, ...<<D_PAGED>>.  */
+bfd/bfd-in3.h:    the set <<SEC_NO_FLAGS>>, <<SEC_ALLOC>>, ...<<SET_NEVER_LOAD>>.  */
+Binary file bfd/libbfd.a matches
+bfd/bfd.h:#define BFD_NO_FLAGS   	0x00
+bfd/bfd.h:#define SEC_NO_FLAGS   0x000
+bfd/bfd.h:#define BSF_NO_FLAGS    0x00
+bfd/bfd.h:     from the set <<BFD_NO_FLAGS>>, <<HAS_RELOC>>, ...<<D_PAGED>>.  */
+bfd/bfd.h:    the set <<SEC_NO_FLAGS>>, <<SEC_ALLOC>>, ...<<SET_NEVER_LOAD>>.  */
+Binary file bfd/ipa_ld.o matches
+bfd/libtool:# AR="ar" AR_FLAGS="" LTCC="gcc" CC="gcc" \
+bfd/libtool:# CFLAGS="-g -O0 -m64" CPPFLAGS="" \
+bfd/libtool:# MAGIC_CMD="" LD="ld" LDFLAGS="" LIBS="" \
+bfd/libtool:AR_FLAGS="cru"
+bfd/libtool:old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs\$old_deplibs~\$RANLIB \$oldlib"
+bfd/po/Makefile.in:CFLAGS = -g -O0 -m64
+bfd/po/Makefile.in:CPPFLAGS = 
+bfd/po/Makefile.in:COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)
+bfd/po/Makefile:CFLAGS = -g -O0 -m64
+bfd/po/Makefile:CPPFLAGS = 
+bfd/po/Makefile:COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)
+bfd/config.cache:ac_cv_env_CFLAGS_set=set
+bfd/config.cache:ac_cv_env_CFLAGS_value='-g -O0 -m64'
+bfd/config.cache:ac_cv_env_CPPFLAGS_set=
+bfd/config.cache:ac_cv_env_CPPFLAGS_value=
+bfd/config.cache:ac_cv_env_LDFLAGS_set=set
+bfd/config.cache:ac_cv_env_LDFLAGS_value=
+bfd/config.status:  with options \"'--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/bfd' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux'\"
+bfd/config.status:  echo "running /bin/sh /home/wanglei/open64/osprey/cygnus/bfd/configure " '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/bfd' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux' $ac_configure_extra_args " --no-create --no-recursion" >&6
+bfd/config.status:  exec /bin/sh /home/wanglei/open64/osprey/cygnus/bfd/configure '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/bfd' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux' $ac_configure_extra_args --no-create --no-recursion
+bfd/config.status:s,@CFLAGS@,-g -O0 -m64,;t t
+bfd/config.status:s,@LDFLAGS@,,;t t
+bfd/config.status:s,@CPPFLAGS@,,;t t
+bfd/config.status:s,@WARN_CFLAGS@,-W -Wall -Wstrict-prototypes -Wmissing-prototypes,;t t
+bfd/config.status:s,@COREFLAG@,,;t t
+bfd/config.status:s,@WIN32LDFLAGS@,,;t t
+bfd/elf32-target.h:#ifndef ELF_DYNAMIC_SEC_FLAGS
+bfd/elf32-target.h:#define ELF_DYNAMIC_SEC_FLAGS			\
+bfd/elf32-target.h:  ELF_DYNAMIC_SEC_FLAGS,        /* dynamic_sec_flags */
+bfd/Makefile:ARFLAGS = cru
+bfd/Makefile:libbfd_a_AR = $(AR) $(ARFLAGS)
+bfd/Makefile:COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \
+bfd/Makefile:	$(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+bfd/Makefile:	$(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) \
+bfd/Makefile:	$(AM_CFLAGS) $(CFLAGS)
+bfd/Makefile:LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
+bfd/Makefile:	$(AM_LDFLAGS) $(LDFLAGS) -o $@
+bfd/Makefile:#CFLAGS = -g -O0 -m64
+bfd/Makefile:CFLAGS = -O0 -g	# TK
+bfd/Makefile:COREFLAG = 
+bfd/Makefile:CPPFLAGS = 
+bfd/Makefile:LDFLAGS = 
+bfd/Makefile:WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes
+bfd/Makefile:WIN32LDFLAGS = 
+bfd/Makefile:AM_CFLAGS = $(WARN_CFLAGS)
+bfd/Makefile:libbfd_la_LDFLAGS = -release $(VERSION) 
+bfd/Makefile:	$(MAKE) $(AM_MAKEFLAGS) all-recursive
+bfd/Makefile:	cd $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
+bfd/Makefile:	$(LINK) -rpath $(bfdlibdir) $(libbfd_la_LDFLAGS) $(libbfd_la_OBJECTS) $(libbfd_la_LIBADD) $(LIBS)
+bfd/Makefile:	for f in x $$MAKEFLAGS; do \
+bfd/Makefile:	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+bfd/Makefile:	  $(MAKE) $(AM_MAKEFLAGS) "$$target-am" || exit 1; \
+bfd/Makefile:	for f in x $$MAKEFLAGS; do \
+bfd/Makefile:	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+bfd/Makefile:	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \
+bfd/Makefile:	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) ctags); \
+bfd/Makefile:	  $(ETAGS) $(ETAGSFLAGS) $(AM_ETAGSFLAGS) $(ETAGS_ARGS) \
+bfd/Makefile:	  || $(CTAGS) $(CTAGSFLAGS) $(AM_CTAGSFLAGS) $(CTAGS_ARGS) \
+bfd/Makefile:	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+bfd/Makefile:	$(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+bfd/Makefile:	  install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+bfd/Makefile:	$(MKDEP) $(INCLUDES) $(CFLAGS) $? >> DEP2
+bfd/Makefile:	$(CC) -o gen-aout $(CFLAGS) $(LFLAGS) $(srcdir)/gen-aout.c
+bfd/Makefile:	(cd $(docdir); $(MAKE) protos $(FLAGS_TO_PASS))
+bfd/Makefile:	(cd $(docdir); $(MAKE) $(FLAGS_TO_PASS) bfd.h)
+bfd/Makefile:	(cd $(docdir); $(MAKE) $(FLAGS_TO_PASS) libbfd.h)
+bfd/Makefile:	(cd $(docdir); $(MAKE) $(FLAGS_TO_PASS) libcoff.h)
+bfd/config.log:ac_cv_env_CFLAGS_set=set
+bfd/config.log:ac_cv_env_CFLAGS_value='-g -O0 -m64'
+bfd/config.log:ac_cv_env_CPPFLAGS_set=
+bfd/config.log:ac_cv_env_CPPFLAGS_value=
+bfd/config.log:ac_cv_env_LDFLAGS_set=set
+bfd/config.log:ac_cv_env_LDFLAGS_value=
+bfd/config.log:CFLAGS='-g -O0 -m64'
+bfd/config.log:COREFLAG=''
+bfd/config.log:CPPFLAGS=''
+bfd/config.log:LDFLAGS=''
+bfd/config.log:WARN_CFLAGS='-W -Wall -Wstrict-prototypes -Wmissing-prototypes'
+bfd/config.log:WIN32LDFLAGS=''
+Binary file bfd/.libs/libbfd.a matches
+Binary file bfd/elf.o matches
+bfd/doc/Makefile:AM_MAKEINFOHTMLFLAGS = $(AM_MAKEINFOFLAGS)
+bfd/doc/Makefile:CFLAGS = -g -O0 -m64
+bfd/doc/Makefile:COREFLAG = 
+bfd/doc/Makefile:CPPFLAGS = 
+bfd/doc/Makefile:LDFLAGS = 
+bfd/doc/Makefile:WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes
+bfd/doc/Makefile:WIN32LDFLAGS = 
+bfd/doc/Makefile:	      cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh \
+bfd/doc/Makefile:	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
+bfd/doc/Makefile:	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+bfd/doc/Makefile:	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+bfd/doc/Makefile:	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+bfd/doc/Makefile:	if $(MAKEINFO) $(AM_MAKEINFOFLAGS) $(MAKEINFOFLAGS) -I $(srcdir) \
+bfd/doc/Makefile:	MAKEINFO='$(MAKEINFO) $(AM_MAKEINFOFLAGS) $(MAKEINFOFLAGS) -I $(srcdir)' \
+bfd/doc/Makefile:	MAKEINFO='$(MAKEINFO) $(AM_MAKEINFOFLAGS) $(MAKEINFOFLAGS) -I $(srcdir)' \
+bfd/doc/Makefile:	if $(MAKEINFOHTML) $(AM_MAKEINFOHTMLFLAGS) $(MAKEINFOFLAGS) -I $(srcdir) \
+bfd/doc/Makefile:	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+bfd/doc/Makefile:	$(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+bfd/doc/Makefile:	  install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+bfd/doc/Makefile:	  $(CFLAGS_FOR_BUILD) $(LDFLAGS_FOR_BUILD) $(H_CFLAGS) \
+bfd/doc/Makefile:	$(CC_FOR_BUILD) -c $(INCLUDES) $(H_CFLAGS) $(CFLAGS_FOR_BUILD) $(srcdir)/chew.c
+config.status:s%@CFLAGS@% -g -O0 -m64%g
+config.status:s%@CPPFLAGS@%%g
+config.status:s%@CXXFLAGS@%-g -O2%g
+config.status:s%@FFLAGS@%%g
+config.status:s%@LDFLAGS@%%g
+config.status:s%@CFLAGS_FOR_BUILD@% -g -O0 -m64%g
+config.status:s%@FLAGS_FOR_TARGET@% -L$$r/$(HOST_SUBDIR)/ld%g
+config.status:s%@CC_FOR_TARGET@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-gcc $(FLAGS_FOR_TARGET)%g
+config.status:s%@GCJ_FOR_TARGET@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-gcj $(FLAGS_FOR_TARGET)%g
+config.status:s%@GFORTRAN_FOR_TARGET@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-gfortran $(FLAGS_FOR_TARGET)%g
+config.status:s%@CXX_FOR_TARGET@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)%g
+config.status:s%@RAW_CXX_FOR_TARGET@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)%g
+config.status:s%@CXX_FOR_TARGET_FOR_RECURSIVE_MAKE@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)%g
+config.status:s%@RAW_CXX_FOR_TARGET_FOR_RECURSIVE_MAKE@%$(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)%g
+CONFIGURE:setenv CFLAGS " -g -O0 -m64"
+Binary file ld/ld-new matches
+ld/libtool:# AR="ar" AR_FLAGS="" LTCC="gcc" CC="gcc" \
+ld/libtool:# CFLAGS="-g -O0 -m64" CPPFLAGS="" \
+ld/libtool:# MAGIC_CMD="" LD="ld" LDFLAGS="" LIBS="" \
+ld/libtool:AR_FLAGS="cru"
+ld/libtool:old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs\$old_deplibs~\$RANLIB \$oldlib"
+ld/po/Makefile.in:CFLAGS = -g -O0 -m64
+ld/po/Makefile.in:CPPFLAGS = 
+ld/po/Makefile.in:COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)
+ld/po/Makefile:CFLAGS = -g -O0 -m64
+ld/po/Makefile:CPPFLAGS = 
+ld/po/Makefile:COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)
+ld/config.status:s%@CFLAGS@%-g -O0 -m64%g
+ld/config.status:s%@CPPFLAGS@%%g
+ld/config.status:s%@CXXFLAGS@%-g -O2%g
+ld/config.status:s%@FFLAGS@%%g
+ld/config.status:s%@LDFLAGS@%%g
+ld/config.status:s%@WARN_CFLAGS@%-W -Wall -Wstrict-prototypes -Wmissing-prototypes%g
+ld/Makefile:INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
+ld/Makefile:GCJFLAGS = @GCJFLAGS@
+ld/Makefile:YFLAGS = -d
+ld/Makefile:WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes
+ld/Makefile:AM_CFLAGS = $(WARN_CFLAGS)
+ld/Makefile:RUNTESTFLAGS = 
+ld/Makefile:INCLUDES = -D_GNU_SOURCE -I. -I$(srcdir) -I../bfd -I$(BFDDIR) -I$(INCDIR) -I$(top_srcdir)/../intl -I../intl $(HDEFINES) $(CFLAGS) -DLOCALEDIR="\"$(datadir)/locale\""
+ld/Makefile:CPPFLAGS = 
+ld/Makefile:LDFLAGS = 
+ld/Makefile:ld_new_LDFLAGS = -export-dynamic	# needed for IPA
+ld/Makefile:#CFLAGS = -g -O0 -m64
+ld/Makefile:CFLAGS = -O0 -g	# TK
+ld/Makefile:COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+ld/Makefile:LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+ld/Makefile:LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(LDFLAGS) -o $@
+ld/Makefile:	$(LINK) $(ld_new_LDFLAGS) $(ld_new_OBJECTS) $(ld_new_LDADD) $(LIBS) -ldl
+ld/Makefile:	$(LEX) $(AM_LFLAGS) $(LFLAGS) $< && mv $(LEX_OUTPUT_ROOT).c $@
+ld/Makefile:	$(SHELL) $(YLWRAP) "$(YACC)" $< y.tab.c $*.c y.tab.h $*.h -- $(AM_YFLAGS) $(YFLAGS)
+ld/Makefile:	$(MAKE) $(AM_MAKEFLAGS) install-man1
+ld/Makefile:	$(MAKE) $(AM_MAKEFLAGS) uninstall-man1
+ld/Makefile:	@set fnord $(MAKEFLAGS); amf=$$2; \
+ld/Makefile:	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+ld/Makefile:	  $(MAKE) $(AM_MAKEFLAGS) "$$target-am" || exit 1; \
+ld/Makefile:	@set fnord $(MAKEFLAGS); amf=$$2; \
+ld/Makefile:	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+ld/Makefile:	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \
+ld/Makefile:	  && $(MAKE) $(AM_MAKEFLAGS) \
+ld/Makefile:	  && $(MAKE) $(AM_MAKEFLAGS) dvi \
+ld/Makefile:	  && $(MAKE) $(AM_MAKEFLAGS) check \
+ld/Makefile:	  && $(MAKE) $(AM_MAKEFLAGS) install \
+ld/Makefile:	  && $(MAKE) $(AM_MAKEFLAGS) installcheck \
+ld/Makefile:	  && $(MAKE) $(AM_MAKEFLAGS) dist
+ld/Makefile:	    (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) top_distdir=../$(distdir) distdir=../$(distdir)/$$subdir distdir) \
+ld/Makefile:	$(MAKE) $(AM_MAKEFLAGS) top_distdir="$(top_distdir)" distdir="$(distdir)" dist-info
+ld/Makefile:RUNTESTDEFAULTFLAGS = --tool $(DEJATOOL) --srcdir $$srcdir
+ld/Makefile:	$(MAKE) $(AM_MAKEFLAGS) check-DEJAGNU
+ld/Makefile:	$(MAKE) $(AM_MAKEFLAGS) all-recursive
+ld/Makefile:	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+ld/Makefile:	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+ld/Makefile:		CC="$(CC_FOR_TARGET)" CFLAGS="$(CFLAGS)" \
+ld/Makefile:		CXX="$(CXX_FOR_TARGET)" CXXFLAGS="$(CXXFLAGS)" \
+ld/Makefile:		CC_FOR_HOST="$(CC)" CFLAGS_FOR_HOST="$(CFLAGS)" \
+ld/Makefile:		$(RUNTESTFLAGS); \
+ld/Makefile:	$(MKDEP) $(INCLUDES) $(CFLAGS) $? >> DEP2
+Binary file ld/ldgram.o matches
+libiberty/testsuite/Makefile:CFLAGS = -g -O0 -m64
+libiberty/testsuite/Makefile:LIBCFLAGS = $(CFLAGS)
+libiberty/testsuite/Makefile:TEST_COMPILE = $(CC) -DHAVE_CONFIG_H $(LIBCFLAGS) -I.. -I$(INCDIR) $(HDEFINES)
+libiberty/config.cache:ac_cv_env_CFLAGS_set=set
+libiberty/config.cache:ac_cv_env_CFLAGS_value='-g -O0 -m64'
+libiberty/config.cache:ac_cv_env_CPPFLAGS_set=
+libiberty/config.cache:ac_cv_env_CPPFLAGS_value=
+libiberty/config.cache:ac_cv_env_LDFLAGS_set=set
+libiberty/config.cache:ac_cv_env_LDFLAGS_value=
+libiberty/config.status:  with options \"'--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/libiberty' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux'\"
+libiberty/config.status:  echo "running /bin/sh /home/wanglei/open64/osprey/cygnus/libiberty/configure " '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/libiberty' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux' $ac_configure_extra_args " --no-create --no-recursion" >&6
+libiberty/config.status:  exec /bin/sh /home/wanglei/open64/osprey/cygnus/libiberty/configure '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/libiberty' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux' $ac_configure_extra_args --no-create --no-recursion
+libiberty/config.status:ac_configure_args="--enable-multilib '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/libiberty' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux'"
+libiberty/config.status:s,@CFLAGS@,-g -O0 -m64,;t t
+libiberty/config.status:s,@LDFLAGS@,,;t t
+libiberty/config.status:s,@CPPFLAGS@,,;t t
+libiberty/Makefile:AR_FLAGS = rc
+libiberty/Makefile:CFLAGS = -g -O0 -m64
+libiberty/Makefile:LIBCFLAGS = $(CFLAGS)
+libiberty/Makefile:PICFLAG =
+libiberty/Makefile:FLAGS_TO_PASS = \
+libiberty/Makefile:	"AR_FLAGS=$(AR_FLAGS)" \
+libiberty/Makefile:	"CFLAGS=$(CFLAGS)" \
+libiberty/Makefile:	"LIBCFLAGS=$(LIBCFLAGS)" \
+libiberty/Makefile:	"LDFLAGS=$(LDFLAGS)" \
+libiberty/Makefile:	@: $(MAKE) ; exec $(MULTIDO) $(FLAGS_TO_PASS) multi-do DO=all
+libiberty/Makefile:COMPILE.c = $(CC) -c -DHAVE_CONFIG_H $(LIBCFLAGS) -I. -I$(INCDIR) $(HDEFINES) -W -Wall -Wtraditional -pedantic
+libiberty/Makefile:	$(AR) $(AR_FLAGS) $(TARGETLIB) \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(AR) $(AR_FLAGS) $(TARGETLIB) \
+libiberty/Makefile:	$(AR) $(AR_FLAGS) $(TESTLIB) \
+libiberty/Makefile:	@$(MULTIDO) $(FLAGS_TO_PASS) multi-do DO=install
+libiberty/Makefile:# multilib-specific flags, it's overridden by FLAGS_TO_PASS from the
+libiberty/Makefile:# default multilib, so we have to take LIBCFLAGS into account as well,
+libiberty/Makefile:MULTIOSDIR = `$(CC) $(LIBCFLAGS) -print-multi-os-directory`
+libiberty/Makefile:	@$(MULTIDO) $(FLAGS_TO_PASS) multi-do DO=install
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ] && [ ! -d pic ]; then \
+libiberty/Makefile:	  cd $$dir && $(MAKE) $(FLAGS_TO_PASS) $$target; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/_doprnt.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/alloca.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/argv.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/asprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/atexit.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/basename.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/bcmp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/bcopy.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/bsearch.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/bzero.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/calloc.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/choose-temp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/clock.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/concat.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/copysign.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/cp-demangle.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/cp-demint.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/cplus-dem.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/dyn-string.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/fdmatch.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/ffs.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/fibheap.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/floatformat.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/fnmatch.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/getcwd.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/getopt.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/getopt1.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/getpagesize.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/getpwd.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/getruntime.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/hashtab.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/hex.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/index.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/insque.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/lbasename.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/lrealpath.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/make-relative-prefix.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/make-temp-file.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/md5.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/memchr.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/memcmp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/memcpy.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/memmove.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/mempcpy.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/memset.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/mkstemps.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/msdos.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/objalloc.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/obstack.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/partition.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/pex-djgpp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/pex-msdos.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/pex-os2.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/pex-unix.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/pex-win32.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/physmem.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/putenv.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/random.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/regex.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/rename.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/rindex.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/safe-ctype.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/setenv.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/sigsetmask.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/snprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/sort.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/spaces.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/splay-tree.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/stpcpy.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/stpncpy.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strcasecmp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strchr.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strdup.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strerror.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strncasecmp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strncmp.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strrchr.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strsignal.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strstr.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strtod.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strtol.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/strtoul.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/ternary.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/tmpnam.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/unlink-if-ordinary.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/vasprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/vfork.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/vfprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/vprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/vsnprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/vsprintf.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/waitpid.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/xatexit.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/xexit.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/xmalloc.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/xmemdup.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/xstrdup.c -o pic/$@; \
+libiberty/Makefile:	if [ x"$(PICFLAG)" != x ]; then \
+libiberty/Makefile:	  $(COMPILE.c) $(PICFLAG) $(srcdir)/xstrerror.c -o pic/$@; \
+libiberty/config.log:ac_cv_env_CFLAGS_set=set
+libiberty/config.log:ac_cv_env_CFLAGS_value='-g -O0 -m64'
+libiberty/config.log:ac_cv_env_CPPFLAGS_set=
+libiberty/config.log:ac_cv_env_CPPFLAGS_value=
+libiberty/config.log:ac_cv_env_LDFLAGS_set=set
+libiberty/config.log:ac_cv_env_LDFLAGS_value=
+libiberty/config.log:CFLAGS='-g -O0 -m64'
+libiberty/config.log:CPPFLAGS=''
+libiberty/config.log:LDFLAGS=''
+Makefile:	CFLAGS="$(CFLAGS_FOR_BUILD)"; export CFLAGS; \
+Makefile:	CXXFLAGS="$(CXXFLAGS_FOR_BUILD)"; export CXXFLAGS; \
+Makefile:	LDFLAGS="$(LDFLAGS_FOR_BUILD)"; export LDFLAGS; \
+Makefile:	CFLAGS="$(CFLAGS)"; export CFLAGS; \
+Makefile:	CXXFLAGS="$(CXXFLAGS)"; export CXXFLAGS; \
+Makefile:	LDFLAGS="$(LDFLAGS)"; export LDFLAGS; \
+Makefile:	CFLAGS="$(CFLAGS_FOR_TARGET)"; export CFLAGS; \
+Makefile:	CPPFLAGS="$(CPPFLAGS_FOR_TARGET)"; export CPPFLAGS; \
+Makefile:	CXXFLAGS="$(CXXFLAGS_FOR_TARGET)"; export CXXFLAGS; \
+Makefile:	LDFLAGS="$(LDFLAGS_FOR_TARGET)"; export LDFLAGS; \
+Makefile:CFLAGS_FOR_BUILD =  -g -O0 -m64
+Makefile:# Special variables passed down in EXTRA_GCC_FLAGS.  They are defined
+Makefile:#BOOT_CFLAGS= -g -O2
+Makefile:BOOT_CFLAGS= -g	 # TK
+Makefile:MAKEINFOFLAGS = --split-size=5000000
+Makefile:AR_FLAGS = rc
+Makefile:CFLAGS =  -g -O0 -m64
+Makefile:LIBCFLAGS = $(CFLAGS)
+Makefile:CXXFLAGS = -g -O2
+Makefile:LIBCXXFLAGS = $(CXXFLAGS) -fno-implicit-templates
+Makefile:LDFLAGS = 
+Makefile:PICFLAG = 
+Makefile:FLAGS_FOR_TARGET =  -L$$r/$(HOST_SUBDIR)/ld
+Makefile:CC_FOR_TARGET = $(STAGE_CC_WRAPPER) x86_64-open64-linux-gcc $(FLAGS_FOR_TARGET)
+Makefile:# CFLAGS will be just -g.  We want to ensure that TARGET libraries
+Makefile:# prepend -O2 when setting CFLAGS_FOR_TARGET.
+Makefile:#CFLAGS_FOR_TARGET = -O2 $(CFLAGS)
+Makefile:CFLAGS_FOR_TARGET = -g $(CFLAGS)	# TK
+Makefile:  $$r/$(HOST_SUBDIR)/gcc/xgcc -B$$r/$(HOST_SUBDIR)/gcc/ $(FLAGS_FOR_TARGET)
+Makefile:LIBCFLAGS_FOR_TARGET = $(CFLAGS_FOR_TARGET)
+Makefile:CXX_FOR_TARGET = $(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)
+Makefile:RAW_CXX_FOR_TARGET = $(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)
+Makefile:CXX_FOR_TARGET_FOR_RECURSIVE_MAKE = $(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)
+Makefile:RAW_CXX_FOR_TARGET_FOR_RECURSIVE_MAKE = $(STAGE_CC_WRAPPER) x86_64-open64-linux-c++ $(FLAGS_FOR_TARGET)
+Makefile:CXXFLAGS_FOR_TARGET = $(CXXFLAGS)
+Makefile:LIBCXXFLAGS_FOR_TARGET = $(CXXFLAGS_FOR_TARGET) -fno-implicit-templates
+Makefile:GCJ_FOR_TARGET = $(STAGE_CC_WRAPPER) x86_64-open64-linux-gcj $(FLAGS_FOR_TARGET)
+Makefile:GFORTRAN_FOR_TARGET = $(STAGE_CC_WRAPPER) x86_64-open64-linux-gfortran $(FLAGS_FOR_TARGET)
+Makefile:LDFLAGS_FOR_TARGET = 
+Makefile:PICFLAG_FOR_TARGET = 
+Makefile:BASE_FLAGS_TO_PASS = \
+Makefile:	"RUNTESTFLAGS=$(RUNTESTFLAGS)" \
+Makefile:	"AR_FLAGS=$(AR_FLAGS)" \
+Makefile:	"CFLAGS=$(CFLAGS)" \
+Makefile:	"CXXFLAGS=$(CXXFLAGS)" \
+Makefile:	"LDFLAGS=$(LDFLAGS)" \
+Makefile:	"LIBCFLAGS=$(LIBCFLAGS)" \
+Makefile:	"LIBCXXFLAGS=$(LIBCXXFLAGS)" \
+Makefile:	"CFLAGS_FOR_TARGET=$(CFLAGS_FOR_TARGET)" \
+Makefile:	"CPPFLAGS_FOR_TARGET=$(CPPFLAGS_FOR_TARGET)" \
+Makefile:	"CXXFLAGS_FOR_TARGET=$(CXXFLAGS_FOR_TARGET)" \
+Makefile:	"LIBCFLAGS_FOR_TARGET=$(LIBCFLAGS_FOR_TARGET)" \
+Makefile:	"LIBCXXFLAGS_FOR_TARGET=$(LIBCXXFLAGS_FOR_TARGET)" \
+Makefile:	"MAKEINFO=$(MAKEINFO) $(MAKEINFOFLAGS)" 
+Makefile:RECURSE_FLAGS = \
+Makefile:RECURSE_FLAGS_TO_PASS = $(BASE_FLAGS_TO_PASS) $(RECURSE_FLAGS)
+Makefile:EXTRA_HOST_FLAGS = \
+Makefile:FLAGS_TO_PASS = $(BASE_FLAGS_TO_PASS) $(EXTRA_HOST_FLAGS)
+Makefile:# autoconf'ed ones should be passed by X11_FLAGS_TO_PASS for now.
+Makefile:X11_FLAGS_TO_PASS = \
+Makefile:	'X11_EXTRA_CFLAGS=$(X11_EXTRA_CFLAGS)' \
+Makefile:# are set in BASE_FLAGS_TO_PASS, and the sub-make will expand them.
+Makefile:EXTRA_TARGET_FLAGS = \
+Makefile:	'CFLAGS=$$(CFLAGS_FOR_TARGET)' \
+Makefile:	'CXXFLAGS=$$(CXXFLAGS_FOR_TARGET)' \
+Makefile:	'LIBCFLAGS=$$(LIBCFLAGS_FOR_TARGET)' \
+Makefile:	'LIBCXXFLAGS=$$(LIBCXXFLAGS_FOR_TARGET)' \
+Makefile:TARGET_FLAGS_TO_PASS = $(BASE_FLAGS_TO_PASS) $(EXTRA_TARGET_FLAGS)
+Makefile:EXTRA_GCC_FLAGS = \
+Makefile:	"CFLAGS_FOR_BUILD=$(CFLAGS_FOR_BUILD)" \
+Makefile:	"`echo 'LIBGCC2_CFLAGS=$(LIBGCC2_CFLAGS)' | sed -e s'/[^=][^=]*=$$/XFOO=/'`" \
+Makefile:	"`echo 'LIBGCC2_DEBUG_CFLAGS=$(LIBGCC2_DEBUG_CFLAGS)' | sed -e s'/[^=][^=]*=$$/XFOO=/'`" \
+Makefile:	"`echo 'STAGE1_CFLAGS=$(STAGE1_CFLAGS)' | sed -e s'/[^=][^=]*=$$/XFOO=/'`" \
+Makefile:	"`echo 'BOOT_CFLAGS=$(BOOT_CFLAGS)' | sed -e s'/[^=][^=]*=$$/XFOO=/'`" \
+Makefile:	"`echo 'BOOT_ADAFLAGS=$(BOOT_ADAFLAGS)' | sed -e s'/[^=][^=]*=$$/XFOO=/'`"
+Makefile:GCC_FLAGS_TO_PASS = $(BASE_FLAGS_TO_PASS) $(EXTRA_HOST_FLAGS) $(EXTRA_GCC_FLAGS)
+Makefile:	if test x'$(BOOT_CFLAGS)' != x''; then \
+Makefile:	    BOOT_CFLAGS='$(BOOT_CFLAGS)'; export BOOT_CFLAGS; \
+Makefile:	if test x'$(BOOT_CFLAGS)' != x''; then \
+Makefile:	    BOOT_CFLAGS='$(BOOT_CFLAGS)'; export BOOT_CFLAGS; \
+Makefile:		$(MAKE) $(FLAGS_TO_PASS) install-headers) ; \
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  $(TARGET-bfd))
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  check)
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  install)
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  $(TARGET-opcodes))
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  check)
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  install)
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  $(TARGET-ld))
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  check)
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  install)
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  $(TARGET-libiberty))
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  check)
+Makefile:	  $(MAKE) $(FLAGS_TO_PASS)  install)
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:	for flag in $(EXTRA_HOST_FLAGS) ; do \
+Makefile:	  $(MAKE) $(BASE_FLAGS_TO_PASS) "AR=$${AR}" "AS=$${AS}" \
+Makefile:# only thing useful for building stage2. STAGE1_CFLAGS (via CFLAGS),
+Makefile:# MAKEINFO and MAKEINFOFLAGS are explicitly passed here to make them
+Makefile:STAGE1_CFLAGS=-g
+Makefile:POSTSTAGE1_FLAGS_TO_PASS = \
+Makefile:	CFLAGS="$(BOOT_CFLAGS)" \
+Makefile:	  $(MAKE) $(RECURSE_FLAGS_TO_PASS) NOTPARALLEL= all-stage1; \
+Makefile:	  $(MAKE) $(RECURSE_FLAGS_TO_PASS) NOTPARALLEL= all-stage2; \
+Makefile:	  $(MAKE) $(RECURSE_FLAGS_TO_PASS) NOTPARALLEL= all-stage3; \
+Makefile:	  $(MAKE) $(RECURSE_FLAGS_TO_PASS) NOTPARALLEL= all-stage4; \
+Makefile:	  $(MAKE) $(RECURSE_FLAGS_TO_PASS) NOTPARALLEL= all-stageprofile; \
+Makefile:	  $(MAKE) $(RECURSE_FLAGS_TO_PASS) NOTPARALLEL= all-stagefeedback; \
+opcodes/libtool:# AR="ar" AR_FLAGS="" LTCC="gcc" CC="gcc" \
+opcodes/libtool:# CFLAGS="-g -O0 -m64" CPPFLAGS="" \
+opcodes/libtool:# MAGIC_CMD="" LD="ld" LDFLAGS="" LIBS="" \
+opcodes/libtool:AR_FLAGS="cru"
+opcodes/libtool:old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs\$old_deplibs~\$RANLIB \$oldlib"
+opcodes/po/Makefile.in:CFLAGS = -g -O0 -m64
+opcodes/po/Makefile.in:CPPFLAGS = 
+opcodes/po/Makefile.in:COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)
+opcodes/po/Makefile:CFLAGS = -g -O0 -m64
+opcodes/po/Makefile:CPPFLAGS = 
+opcodes/po/Makefile:COMPILE = $(CC) -c $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS) $(XCFLAGS)
+opcodes/config.cache:ac_cv_env_CFLAGS_set=set
+opcodes/config.cache:ac_cv_env_CFLAGS_value='-g -O0 -m64'
+opcodes/config.cache:ac_cv_env_CPPFLAGS_set=
+opcodes/config.cache:ac_cv_env_CPPFLAGS_value=
+opcodes/config.cache:ac_cv_env_LDFLAGS_set=set
+opcodes/config.cache:ac_cv_env_LDFLAGS_value=
+opcodes/config.status:  with options \"'--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/opcodes' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux'\"
+opcodes/config.status:  echo "running /bin/sh /home/wanglei/open64/osprey/cygnus/opcodes/configure " '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/opcodes' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux' $ac_configure_extra_args " --no-create --no-recursion" >&6
+opcodes/config.status:  exec /bin/sh /home/wanglei/open64/osprey/cygnus/opcodes/configure '--cache-file=./config.cache' '--build=i686-open64-linux' '--host=i686-open64-linux' '--target=x86_64-open64-linux' '--with-gnu-ld' '--prefix=/usr/x8664-linux' '--program-transform-name=s,^,x86_64-open64-linux-,; ' '--srcdir=../../cygnus/opcodes' 'CC=gcc' 'CFLAGS=-g -O0 -m64' 'LDFLAGS=' 'build_alias=i686-open64-linux' 'host_alias=i686-open64-linux' 'target_alias=x86_64-open64-linux' $ac_configure_extra_args --no-create --no-recursion
+opcodes/config.status:s,@CFLAGS@,-g -O0 -m64,;t t
+opcodes/config.status:s,@LDFLAGS@,,;t t
+opcodes/config.status:s,@CPPFLAGS@,,;t t
+opcodes/config.status:s,@WARN_CFLAGS@,-W -Wall -Wstrict-prototypes -Wmissing-prototypes,;t t
+opcodes/config.status:s,@WIN32LDFLAGS@,,;t t
+opcodes/Makefile:ARFLAGS = cru
+opcodes/Makefile:libopcodes_a_AR = $(AR) $(ARFLAGS)
+opcodes/Makefile:COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \
+opcodes/Makefile:	$(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+opcodes/Makefile:	$(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) \
+opcodes/Makefile:	$(AM_CFLAGS) $(CFLAGS)
+opcodes/Makefile:LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
+opcodes/Makefile:	$(AM_LDFLAGS) $(LDFLAGS) -o $@
+opcodes/Makefile:CFLAGS = -g -O0 -m64
+opcodes/Makefile:CPPFLAGS = 
+opcodes/Makefile:LDFLAGS = 
+opcodes/Makefile:WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes
+opcodes/Makefile:WIN32LDFLAGS = 
+opcodes/Makefile:AM_CFLAGS = $(WARN_CFLAGS)
+opcodes/Makefile:libopcodes_la_LDFLAGS = -release $(VERSION) 
+opcodes/Makefile:CGENFLAGS = -v
+opcodes/Makefile:	$(MAKE) $(AM_MAKEFLAGS) all-recursive
+opcodes/Makefile:	cd $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
+opcodes/Makefile:	$(LINK) -rpath $(bfdlibdir) $(libopcodes_la_LDFLAGS) $(libopcodes_la_OBJECTS) $(libopcodes_la_LIBADD) $(LIBS)
+opcodes/Makefile:	@set fnord $$MAKEFLAGS; amf=$$2; \
+opcodes/Makefile:	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+opcodes/Makefile:	  $(MAKE) $(AM_MAKEFLAGS) "$$target-am" || exit 1; \
+opcodes/Makefile:	@set fnord $$MAKEFLAGS; amf=$$2; \
+opcodes/Makefile:	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+opcodes/Makefile:	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \
+opcodes/Makefile:	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) ctags); \
+opcodes/Makefile:	  $(ETAGS) $(ETAGSFLAGS) $(AM_ETAGSFLAGS) $(ETAGS_ARGS) \
+opcodes/Makefile:	  || $(CTAGS) $(CTAGSFLAGS) $(AM_CTAGSFLAGS) $(CTAGS_ARGS) \
+opcodes/Makefile:	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+opcodes/Makefile:	$(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+opcodes/Makefile:	  install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+opcodes/Makefile:	  $(CGENDIR) "$(CGENFLAGS)" $(arch) $(prefix) $(archfile) $(opcfile) \
+opcodes/Makefile:	$(MKDEP) $(INCLUDES) $(CFLAGS) $? >> DEP2
+opcodes/config.log:ac_cv_env_CFLAGS_set=set
+opcodes/config.log:ac_cv_env_CFLAGS_value='-g -O0 -m64'
+opcodes/config.log:ac_cv_env_CPPFLAGS_set=
+opcodes/config.log:ac_cv_env_CPPFLAGS_value=
+opcodes/config.log:ac_cv_env_LDFLAGS_set=set
+opcodes/config.log:ac_cv_env_LDFLAGS_value=
+opcodes/config.log:CFLAGS='-g -O0 -m64'
+opcodes/config.log:CPPFLAGS=''
+opcodes/config.log:LDFLAGS=''
+opcodes/config.log:WARN_CFLAGS='-W -Wall -Wstrict-prototypes -Wmissing-prototypes'
+opcodes/config.log:WIN32LDFLAGS=''

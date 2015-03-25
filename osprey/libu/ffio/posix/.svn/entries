@@ -1,0 +1,52 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libu/ffio/posix
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+chknset.c
+file
+
+
+
+
+2015-03-25T04:29:53.000000Z
+779466c42c55b0a2cb0e7819dc8fa327
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+sysasg.c
+file
+
+
+
+
+2015-03-25T04:29:53.000000Z
+8f8ef13832a1a8a858083008b74efc4f
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

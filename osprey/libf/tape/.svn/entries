@@ -1,0 +1,67 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libf/tape
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+tsync.c
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+34e4578278e332a9f9911dca0cf9b019
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+c1
+dir
+
+tape.makeinclude
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+950cf62d251ed359d8887831e39ca9be
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+tape.mh
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+16ce0e7bcaafcc0060869f0b12b05844
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

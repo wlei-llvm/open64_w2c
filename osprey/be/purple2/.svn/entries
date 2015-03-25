@@ -1,0 +1,40 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/be/purple2
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+prp_driver.h
+file
+
+
+
+
+2015-03-25T04:29:38.000000Z
+fced9a4a1a55d0d512af6f3c9de07e6e
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

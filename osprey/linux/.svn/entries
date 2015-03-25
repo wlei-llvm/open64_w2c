@@ -1,0 +1,40 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/linux
+svn://10.3.0.220/pavt/open64
+
+
+
+2011-03-28T22:38:05.984024Z
+425
+chencm
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+tools
+dir
+
+include
+dir
+
+mfef90_includes
+dir
+
+make
+dir
+

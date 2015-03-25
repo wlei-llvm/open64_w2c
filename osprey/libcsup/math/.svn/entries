@@ -1,0 +1,52 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libcsup/math
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+math.makeinclude
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+c9af582f531889857a41dea5f6361739
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+floorl.c
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+11d65f14180eeebe2c473aaff13f77a8
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

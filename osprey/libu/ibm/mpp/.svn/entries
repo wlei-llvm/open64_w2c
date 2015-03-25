@@ -1,0 +1,52 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libu/ibm/mpp
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+uscctc.c
+file
+
+
+
+
+2015-03-25T04:29:53.000000Z
+bb9664968f911708f815b4a167e2f869
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+usccti.c
+file
+
+
+
+
+2015-03-25T04:29:53.000000Z
+1625895f1e43939c18339784b9719471
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

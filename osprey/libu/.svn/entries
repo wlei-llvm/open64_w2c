@@ -1,0 +1,85 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libu
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+ffio
+dir
+
+numconv
+dir
+
+tblmgr
+dir
+
+aqio
+dir
+
+cdc
+dir
+
+multi
+dir
+
+Makefile.gbase
+file
+
+
+
+
+2015-03-25T04:29:54.000000Z
+c210b40e144cb64a0139946605f49d19
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+errmsg
+dir
+
+waio
+dir
+
+trbk
+dir
+
+ieg
+dir
+
+vms
+dir
+
+ibm
+dir
+
+clib
+dir
+
+util
+dir
+
+sci
+dir
+

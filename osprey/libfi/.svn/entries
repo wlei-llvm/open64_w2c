@@ -1,0 +1,100 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libfi
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+include
+dir
+
+mpp_reduce
+dir
+
+solaris_fortran.makeinclude
+file
+
+
+
+
+2015-03-25T04:29:51.000000Z
+82c8b31e32ee683d7995713d0904113c
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+element
+dir
+
+mpp_shift
+dir
+
+mpp_util
+dir
+
+prodsum
+dir
+
+coarray
+dir
+
+mpp_scan
+dir
+
+modsdir
+dir
+
+mpp_pre
+dir
+
+matrix
+dir
+
+mathlb
+dir
+
+solaris_fortran.mh
+file
+
+
+
+
+2015-03-25T04:29:51.000000Z
+3740a7764d9d740a91852a10ea8746d7
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+dotprod
+dir
+
+subrtn
+dir
+
+char
+dir
+
+array
+dir
+

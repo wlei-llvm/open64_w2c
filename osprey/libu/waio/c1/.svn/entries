@@ -1,0 +1,52 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libu/waio/c1
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+openwa.c
+file
+
+
+
+
+2015-03-25T04:29:53.000000Z
+4fae91c313bba3de0b7a5b101c441297
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+closewa.c
+file
+
+
+
+
+2015-03-25T04:29:53.000000Z
+e0b0cfba44762e489b86830538405e18
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

@@ -1,0 +1,55 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/libf/auxarr
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+auxarr.makeinclude
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+2997169aa0f76f5da58e5d0547f453eb
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+c1
+dir
+
+auxarr.mh
+file
+
+
+
+
+2015-03-25T04:29:39.000000Z
+b93996a9b632af19ac04c4011592258d
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

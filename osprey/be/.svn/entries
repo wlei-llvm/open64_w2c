@@ -1,0 +1,61 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/be
+svn://10.3.0.220/pavt/open64
+
+
+
+2012-07-12T08:26:34.392767Z
+627
+wl2011
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+opt
+dir
+
+region
+dir
+
+be
+dir
+
+lno
+dir
+
+cg
+dir
+
+purple2
+dir
+
+whirl2c
+dir
+
+vho
+dir
+
+prompf_anl
+dir
+
+whirl2f
+dir
+
+com
+dir
+

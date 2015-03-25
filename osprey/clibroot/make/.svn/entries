@@ -1,0 +1,52 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/clibroot/make
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+libmac.mh
+file
+
+
+
+
+2015-03-25T04:30:06.000000Z
+96b512a4e78fd337c08a4a376349dfaf
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+libdefs.mh
+file
+
+
+
+
+2015-03-25T04:30:06.000000Z
+855cde109dc45df997e2a4d509db976f
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

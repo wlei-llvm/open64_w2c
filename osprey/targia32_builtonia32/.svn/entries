@@ -1,0 +1,73 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/targia32_builtonia32
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+libfortran
+dir
+
+include
+dir
+
+libm
+dir
+
+libopenmp
+dir
+
+libinstr
+dir
+
+libinstr2
+dir
+
+libmv
+dir
+
+libF77
+dir
+
+libdwarf
+dir
+
+libu
+dir
+
+libelf
+dir
+
+Makefile
+file
+
+
+
+
+2015-03-25T04:29:38.000000Z
+2c1636a9745d3f63ad593c4d41fd4068
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

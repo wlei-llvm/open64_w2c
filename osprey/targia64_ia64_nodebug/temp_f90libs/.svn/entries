@@ -1,0 +1,54 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/targia64_ia64_nodebug/temp_f90libs
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+lib.exp
+file
+
+
+
+
+2015-03-25T04:30:01.000000Z
+622057e84e20d33c67d715539a7a01e8
+2009-02-20T04:44:19.065082Z
+1
+htyu
+has-props
+
+lib.cat
+file
+
+
+
+
+2015-03-25T04:30:01.000000Z
+622057e84e20d33c67d715539a7a01e8
+2009-02-20T04:44:19.065082Z
+1
+htyu
+has-props
+

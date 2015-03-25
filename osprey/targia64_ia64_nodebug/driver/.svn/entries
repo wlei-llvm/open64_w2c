@@ -1,0 +1,53 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/targia64_ia64_nodebug/driver
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+kdriver
+file
+
+
+
+
+2015-03-25T04:30:01.000000Z
+4e3b8e95b4511c93fb481d51862d014c
+2009-02-20T04:44:19.065082Z
+1
+htyu
+has-props
+
+Makefile
+file
+
+
+
+
+2015-03-25T04:30:01.000000Z
+7dd6244296c2a1cfafbb5adb1c6c7b26
+2009-02-20T04:44:19.065082Z
+1
+htyu
+

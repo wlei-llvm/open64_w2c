@@ -1,0 +1,52 @@
+8
+
+dir
+689
+svn://10.3.0.220/pavt/open64/4.2/branches/w2c/osprey/kgccfe/gnu/fixinc/tests/base/rpcsvc
+svn://10.3.0.220/pavt/open64
+
+
+
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9643551c-5263-0410-8598-d05535c781d9
+
+rstat.h
+file
+
+
+
+
+2015-03-25T04:29:46.000000Z
+f2c427008762d44eef0afd8085e30e8d
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
+rusers.h
+file
+
+
+
+
+2015-03-25T04:29:46.000000Z
+9f7bb5e5ae8b8c14536a1e0fb8179835
+2009-02-20T04:44:19.065082Z
+1
+htyu
+
